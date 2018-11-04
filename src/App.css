@@ -1,5 +1,7 @@
 html, body {
-  font-size: 15px;
+  /* font-size: 15px; */
+  margin: 0;
+  padding: 0;
 }
 
 .flex-row {
@@ -17,4 +19,8 @@ html, body {
 
 .align-center {
   align-items: center;
+}
+
+.padding-sides {
+  padding: 0 5rem;
 }

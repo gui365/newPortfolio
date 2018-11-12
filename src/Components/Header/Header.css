@@ -2,9 +2,7 @@
   position: fixed;
   top: 0;
   width: 100vw;
-  border-bottom: 1px solid rgb(243, 243, 243);
-  height: 70px;
-  /* background: linear-gradient(to right, black, purple); */
+  background-color: rgb(255, 255, 255);
 }
 
 .brand-div {
@@ -41,6 +39,17 @@
 }
 
 .header-option:hover {
-  border-bottom: 3px purple solid;
-  margin-bottom: -3px;
+  border-top: 3px rgb(81, 142, 223) solid;
+  margin-top: -3px;
+  font-weight: 700;
+}
+
+.border-bottom {
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(116, 11, 202), rgb(81, 142, 223));
+}
+
+.header-option::after {
+  
 }
